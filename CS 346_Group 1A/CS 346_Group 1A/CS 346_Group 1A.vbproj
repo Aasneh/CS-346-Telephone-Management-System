@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B3B5AA11-2B84-4095-AE8B-B294BE697A0F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CS_346_Group_1A.My.MyApplication</StartupObject>
+    <RootNamespace>CS_346_Group_1A</RootNamespace>
+    <AssemblyName>CS 346_Group 1A</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CS 346_Group 1A.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CS 346_Group 1A.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.5.4\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11.Designer.vb">
+      <DependentUpon>Form11.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.vb">
+      <DependentUpon>Form12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.vb">
+      <DependentUpon>Form13.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form21.Designer.vb">
+      <DependentUpon>Form21.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form21.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form31.Designer.vb">
+      <DependentUpon>Form31.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form31.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form32.Designer.vb">
+      <DependentUpon>Form32.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form32.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form41.Designer.vb">
+      <DependentUpon>Form41.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form41.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form42.Designer.vb">
+      <DependentUpon>Form42.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form42.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form43.Designer.vb">
+      <DependentUpon>Form43.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form43.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form51.Designer.vb">
+      <DependentUpon>Form51.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form51.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form52.Designer.vb">
+      <DependentUpon>Form52.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form52.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form61.Designer.vb">
+      <DependentUpon>Form61.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form61.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form62.Designer.vb">
+      <DependentUpon>Form62.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form62.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form11.resx">
+      <DependentUpon>Form11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form21.resx">
+      <DependentUpon>Form21.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form31.resx">
+      <DependentUpon>Form31.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form32.resx">
+      <DependentUpon>Form32.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form41.resx">
+      <DependentUpon>Form41.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form42.resx">
+      <DependentUpon>Form42.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form43.resx">
+      <DependentUpon>Form43.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form51.resx">
+      <DependentUpon>Form51.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form52.resx">
+      <DependentUpon>Form52.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form61.resx">
+      <DependentUpon>Form61.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form62.resx">
+      <DependentUpon>Form62.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IITG_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iitg2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_arrow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klipartz.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
